@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'claire_handbold';
+	src: url('clairehandbold-webfont.eot');
+	src: url('clairehandbold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('clairehandbold-webfont.woff') format('woff'),
+		url('clairehandbold-webfont.ttf') format('truetype'),
+		url('clairehandbold-webfont.svg') format('svg');
+}
