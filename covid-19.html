@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -105,86 +105,37 @@
     </nav>
 
     
+    <!-- About Section11 -->
     <section id="about" class="content-section text-center">
-       <div class="container"> 
-            <div id="gallery">
-            <h2>Summer School of Science Gallery</h2>
-            <div class="lineb"></div>
-                <div class="row">
-                    <ul>
-                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/gallery/image1.jpg" alt=""></li>
-                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/gallery/image2.jpg" alt=""></li>
-                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/gallery/image3.jpg" alt=""></li>
-                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/gallery/image4.jpg" alt=""></li>
-                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/gallery/image5.jpg" alt=""></li>
-                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/gallery/image6.jpg" alt=""></li>
-                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/gallery/image7.jpg" alt=""></li>
-                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/gallery/image8.jpg" alt=""></li>
-                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/gallery/image9.jpg" alt=""></li>
-                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/gallery/image10.jpg" alt=""></li>
-                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/gallery/image11.jpg" alt=""></li>
-                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/gallery/image12.jpg" alt=""></li>
-                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/gallery/image13.jpg" alt=""></li>
-                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/gallery/image14.jpg" alt=""></li>
-                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/gallery/image15.jpg" alt=""></li>
-                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/gallery/image16.jpg" alt=""></li>
-                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/gallery/image17.jpg" alt=""></li>
-                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/gallery/image18.jpg" alt=""></li>
-                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/gallery/image19.jpg" alt=""></li>
-                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/gallery/image20.jpg" alt=""></li>
-                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/gallery/image21.jpg" alt=""></li>
-                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/gallery/image22.jpg" alt=""></li>
-                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/gallery/image23.jpg" alt=""></li>
-                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/gallery/image24.jpg" alt=""></li>
-                    </ul>
-                </div>
+        <div class="break-section2">
+            <div class="container">
+            	<div class="col-lg-8 col-lg-offset-2">
+                <h2>Covid-19 measures</h2>
+                <div class="lineb"></div>
+                
+                	<h3>General information</h3>
+
+                    <p class="main2">TBA</p> 
+
+                    <div class="line2"></div>
+   
+
+                    <h3>Before arrival</h3>
+                    <p class="main2">TBA</p> 
+
+                    <div class="line2"></div>
+
+                    <h3>At the Summer School</h3>
+
+                    <p class="main2">TBA</p>
+                
             </div>
-        </div> 
-        <hr> 
-
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">         
-                    <div class="modal-body">                
-                    </div>
-                </div><!-- /.modal-content -->
-            </div><!-- /.modal-dialog -->
-        </div><!-- /.modal -->
-
-
-
-        <script type="text/javascript">
-            $(document).ready(function(){
-           $('li img').on('click',function(){
-                var src = $(this).attr('src');
-                var img = '<img src="' + src + '" class="img-responsive"/>';
-
-                //Start of new code
-                var index = $(this).parent('li').index();                   
-                var html = '';
-                html += img;                
-                html += '<div style="height:25px;clear:both;display:block;">';
-                html += '<a class="controls next" href="'+ (index+2) + '">next &raquo;</a>';
-                html += '<a class="controls previous" href="' + (index) + '">&laquo; prev</a>';
-                html += '</div>';
-                //End of new code
-
-                $('#myModal').modal();
-                $('#myModal').on('shown.bs.modal', function(){
-                    $('#myModal .modal-body').html(img);
-                });
-                $('#myModal').on('hidden.bs.modal', function(){
-                    $('#myModal .modal-body').html('');
-                });
-           });  
-        })
-
-        </script>
+        </div>    
     </section>
-    
 
     <!-- Footer -->
     <footer>
+    <hr> 
         <div class="container text-center">
             <p><font size="2">Copyright &copy;  Society for Out-of-Frame Education. All Rights Reserved.</font></p>
                 <p><font size="2">Webdesign: Sebastijan Dumančić, Igor Jukić, Lucija Šilić, Jelena Tica. <br> General text: Sebastijan Dumančić, Petra Krznar, Branimir Lukić, Martina Mijušković, Nikolina Šoštarić </font></p>

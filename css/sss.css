@@ -124,12 +124,6 @@ a.orange {
 	
 }
 
-@media and (max-width:1200px) {
-.break-section2 {
-	background: none;
-	}
-}
-
 a:hover,
 a:focus {
 	text-decoration: none;
@@ -351,6 +345,15 @@ a:focus {
 	-o-background-size: cover;
 }
 
+.break-section1 {
+    width: 100%;
+    padding: 50px 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .break-section2 {
 	width: 100%;
 	padding: 50px 0;
@@ -363,13 +366,14 @@ a:focus {
 	
 }
 
-.break-section1 {
-	width: 100%;
-	padding: 50px 0;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
+@media and (max-width:1200px) {
+    .break-section2 {
+        background: none;
+    }
+}
+
+.break-section-remove-padding {
+    padding-top: 100px;
 }
 
 #map {
